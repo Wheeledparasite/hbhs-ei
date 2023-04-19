@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" width="0.14in" height="0.24in"  baseProfile="tiny" viewBox="0 0 140 240">
+    <desc >
+        <referenceFile >jumper_2_100mil_pcb.svg</referenceFile>
+    </desc>
+    <desc >Fritzing footprint SVG</desc>
+    <g id="silkscreen"  gorn="0.2">
+        <line x1="20" y2="220"  stroke-width="10" y1="20" x2="20" stroke="white"/>
+        <line x1="20" y2="220"  stroke-width="10" y1="220" x2="120" stroke="white"/>
+        <line x1="120" y2="20"  stroke-width="10" y1="220" x2="120" stroke="white"/>
+        <line x1="120" y2="20"  stroke-width="10" y1="20" x2="20" stroke="white"/>
+        <line x1="20" y2="20"  stroke-width="5" y1="55" x2="55" stroke="white"/>
+        <!-- 120 -->
+    </g>
+    <g id="copper1"  gorn="0.3">
+        <g id="copper0"  gorn="0.3.0">
+            <rect width="58" height="58" y="41" id="square"  gorn="0.3.0.0" stroke-width="20" fill="none" stroke="rgb(255, 191, 0)" x="41"/>
+            <circle r="29" cy="70" id="connector0pin"  cx="70" gorn="0.3.0.1" stroke-width="20" fill="none" stroke="rgb(255, 191, 0)"/>
+            <circle r="29" cy="170" id="connector1pin"  cx="70" gorn="0.3.0.2" stroke-width="20" fill="none" stroke="rgb(255, 191, 0)"/>
+        </g>
+    </g>
+</svg>

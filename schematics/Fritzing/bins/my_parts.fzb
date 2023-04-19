@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.6b.2021-02-21.0.9.6" icon="Mine.png">
+    <title>My Parts</title>
+    <instances>
+        <instance moduleIdRef="BTS7960_fa725ff37a9703cb78896f85b8b2375f_1" modelIndex="5773" path="/home/lucas/Documents/Fritzing/parts/user/BTS7960_fa725ff37a9703cb78896f85b8b2375f_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="KY-003_06dca2a6d234465b18ea48b383f3c76b_5" modelIndex="5776" path="/home/lucas/Documents/Fritzing/parts/user/KY-003_06dca2a6d234465b18ea48b383f3c76b_5.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Nano-V3.0-IO-Expansion-Adapter_1" modelIndex="5784" path="/home/lucas/Documents/Fritzing/parts/user/Nano-V3.0-IO-Expansion-Adapter_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="12Vbattery-mini_1" modelIndex="7042" path="/home/lucas/Documents/Fritzing/parts/user/12Vbattery-mini_1.fzp">
+            <views/>
+        </instance>
+    </instances>
+</module>

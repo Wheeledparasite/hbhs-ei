@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<module referenceFile="BTS7960_fa725ff37a9703cb78896f85b8b2375f_1.fzp" moduleId="BTS7960_fa725ff37a9703cb78896f85b8b2375f_1" fritzingVersion="0.9.3b">
+  <version>4</version>
+  <author>Peter Van Epp (vanepp in forums)</author>
+  <title>BTS7960</title>
+  <label>M</label>
+  <date>Fri Feb 15 2019</date>
+  <tags>
+    <tag>motor driver</tag>
+    <tag>highigh current (43A) motor driver</tag>
+    <tag>fritzing user</tag>
+    <tag>contrib</tag>
+    <tag>BTS7960</tag>
+  </tags>
+  <properties>
+    <property name="family">Motor Driver</property>
+    <property name="variant">BTS7960</property>
+    <property name="layer"/>
+    <property name="editable pin labels">false</property>
+    <property name="pins">12</property>
+    <property name="part number"/>
+    <property name="hole size"/>
+  </properties>
+  <taxonomy>part.dip.12.pins</taxonomy>
+  <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;BTS7960 43A Peak Power H-Bridge PWM Motor Driver&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+  <views>
+    <iconView>
+      <layers image="icon/BTS7960_fa725ff37a9703cb78896f85b8b2375f_1_icon.svg">
+        <layer layerId="icon"/>
+      </layers>
+    </iconView>
+    <breadboardView>
+      <layers image="breadboard/BTS7960_fa725ff37a9703cb78896f85b8b2375f_1_breadboard.svg">
+        <layer layerId="breadboard"/>
+      </layers>
+    </breadboardView>
+    <schematicView>
+      <layers image="schematic/BTS7960_fa725ff37a9703cb78896f85b8b2375f_1_schematic.svg">
+        <layer layerId="schematic"/>
+      </layers>
+    </schematicView>
+    <pcbView>
+      <layers image="pcb/BTS7960_fa725ff37a9703cb78896f85b8b2375f_1_pcb.svg">
+        <layer layerId="silkscreen"/>
+        <layer layerId="copper0"/>
+        <layer layerId="copper1"/>
+      </layers>
+    </pcbView>
+  </views>
+  <connectors>
+    <connector type="male" id="connector0" name="pin1">
+      <description>R_PWM</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector0pin"/>
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" terminalId="connector0terminal" svgId="connector0pin"/>
+        </schematicView>
+        <pcbView>
+          <p layer="copper0" svgId="connector0pin"/>
+          <p layer="copper1" svgId="connector0pin"/>
+        </pcbView>
+      </views>
+    </connector>
+    <connector type="male" id="connector1" name="pin2">
+      <description>L_PWM</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector1pin"/>
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" terminalId="connector1terminal" svgId="connector1pin"/>
+        </schematicView>
+        <pcbView>
+          <p layer="copper0" svgId="connector1pin"/>
+          <p layer="copper1" svgId="connector1pin"/>
+        </pcbView>
+      </views>
+    </connector>
+    <connector type="male" id="connector2" name="pin3">
+      <description>R_EN</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector2pin"/>
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" terminalId="connector2terminal" svgId="connector2pin"/>
+        </schematicView>
+        <pcbView>
+          <p layer="copper0" svgId="connector2pin"/>
+          <p layer="copper1" svgId="connector2pin"/>
+        </pcbView>
+      </views>
+    </connector>
+    <connector type="male" id="connector3" name="pin4">
+      <description>L_EN</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector3pin"/>
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" terminalId="connector3terminal" svgId="connector3pin"/>
+        </schematicView>
+        <pcbView>
+          <p layer="copper0" svgId="connector3pin"/>
+          <p layer="copper1" svgId="connector3pin"/>
+        </pcbView>
+      </views>
+    </connector>
+    <connector type="male" id="connector4" name="pin5">
+      <description>R_IS</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector4pin"/>
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" terminalId="connector4terminal" svgId="connector4pin"/>
+        </schematicView>
+        <pcbView>
+          <p layer="copper0" svgId="connector4pin"/>
+          <p layer="copper1" svgId="connector4pin"/>
+        </pcbView>
+      </views>
+    </connector>
+    <connector type="male" id="connector5" name="pin6">
+      <description>L_IS</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector5pin"/>
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" terminalId="connector5terminal" svgId="connector5pin"/>
+        </schematicView>
+        <pcbView>
+          <p layer="copper0" svgId="connector5pin"/>
+          <p layer="copper1" svgId="connector5pin"/>
+        </pcbView>
+      </views>
+    </connector>
+    <connector type="male" id="connector6" name="pin7">
+      <description>VCC</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector6pin"/>
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" terminalId="connector6terminal" svgId="connector6pin"/>
+        </schematicView>
+        <pcbView>
+          <p layer="copper0" svgId="connector6pin"/>
+          <p layer="copper1" svgId="connector6pin"/>
+        </pcbView>
+      </views>
+    </connector>
+    <connector type="male" id="connector7" name="pin8">
+      <description>GND</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector7pin"/>
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" terminalId="connector7terminal" svgId="connector7pin"/>
+        </schematicView>
+        <pcbView>
+          <p layer="copper0" svgId="connector7pin"/>
+          <p layer="copper1" svgId="connector7pin"/>
+        </pcbView>
+      </views>
+    </connector>
+    <connector type="male" id="connector8" name="pin9">
+      <description>LOAD +</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector8pin"/>
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" terminalId="connector8terminal" svgId="connector8pin"/>
+        </schematicView>
+        <pcbView>
+        </pcbView>
+      </views>
+    </connector>
+    <connector type="male" id="connector9" name="pin10">
+      <description>LOAD -</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector9pin"/>
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" terminalId="connector9terminal" svgId="connector9pin"/>
+        </schematicView>
+        <pcbView>
+        </pcbView>
+      </views>
+    </connector>
+    <connector type="male" id="connector10" name="pin11">
+      <description>Bat +</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector10pin"/>
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" terminalId="connector10terminal" svgId="connector10pin"/>
+        </schematicView>
+        <pcbView>
+        </pcbView>
+      </views>
+    </connector>
+    <connector type="male" id="connector11" name="pin12">
+      <description>BAT -</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector11pin"/>
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" terminalId="connector11terminal" svgId="connector11pin"/>
+        </schematicView>
+        <pcbView>
+        </pcbView>
+      </views>
+    </connector>
+  </connectors>
+  <url>https://www.ebay.com/itm/BTS7960-43A-Peak-Power-H-Bridge-PWM-Motor-Driver-For-Arduino-Smart-Car-Robot/192213373047?hash=item2cc0cf5077:g:ztQAAOSw1BlZPAfL:</url>
+</module>
